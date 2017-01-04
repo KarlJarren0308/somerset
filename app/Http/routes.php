@@ -54,8 +54,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('invoice','invoice\InvoiceController');
 
     //Reservation routes
-    Route::get('reservations/test','reservation\ReservationController@test');
     Route::resource('reservations','reservation\ReservationController');
+    Route::get('reservations/receipt/{id}','reservation\ReservationController@receipt');
 
     //Receipt routes
     Route::resource('receipt','receipt\ReceiptController',['except'=>['edit','update','destroy']]);
