@@ -54,6 +54,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('invoice','invoice\InvoiceController');
 
     //Reservation routes
+    Route::resource('amenities','amenities\AmenitiesController');
+
+    //Reservation routes
     Route::resource('reservations','reservation\ReservationController');
     Route::get('reservations/receipt/{id}','reservation\ReservationController@receipt');
 
