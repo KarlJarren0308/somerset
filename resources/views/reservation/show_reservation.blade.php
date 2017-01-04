@@ -22,71 +22,90 @@
             <!-- title row -->
             <div class="row">
               <div class="col-xs-12 invoice-header">
-                <h4>Reservation #: {{ sprintf("%'.07d\n",$reservation->id) }}</h4>
+                <h4>Reservation #: {{ sprintf("%'.07d\n", $reservation->id) }}</h4>
               </div>
               <!-- /.col -->
             </div>
             <!-- info row -->
             <div class="row invoice-info">
               @if($reservation->user->home_owner_id == NULL)
-                <div class="col-sm-4 invoice-col">
+                <div class="col-sm-6 invoice-col">
                   <div class="form-group">
                     <label for="" class="control-label">Cashier</label>
                     <h5>
-                      {{$reservation->user->homeOwner->first_name}} {{$reservation->user->homeOwner->middle_name}} {{$reservation->user->homeOwner->last_name}}
+                      {{ $reservation->user->first_name }} {{ $reservation->user->middle_name }} {{ $reservation->user->last_name }}
                     </h5>
                   </div>
                 </div>
+                <div class="col-sm-6 invoice-col">
+                  <div class="form-group">
+                    <label class="control-label" for="homeowner">To</label>
+                    <h5>{{ $reservation->homeOwner->first_name }} {{ $reservation->homeOwner->middle_name }} {{ $reservation->homeOwner->last_name }}</h5>
+                  </div>
+                </div>
+                <!-- /.col -->
+              @else
+                <div class="col-sm-12 invoice-col">
+                  <div class="form-group">
+                    <label class="control-label" for="homeowner">To</label>
+                    <h5>{{ $reservation->homeOwner->first_name }} {{ $reservation->homeOwner->middle_name }} {{ $reservation->homeOwner->last_name }}</h5>
+                  </div>
+                </div>
+                <!-- /.col -->
               @endif
-              <div class="col-sm-4 invoice-col">
-                <div class="form-group">
-                  <label class="control-label" for="homeowner">To</label>
-                  <h5>{{reservation->homeOwner->first_name}} {{reservation->homeOwner->middle_name}} {{reservation->homeOwner->last_name}}</h5>
-                </div>
-              </div>
-              <!-- /.col -->
-              <div class="col-sm-4 invoice-col">
-                <label class="control-label" for="homeowner">Payment Due:</label>
-                <div class="form-group">
-                  <h5>{{ date('F d, Y',strtotime(reservation->reservation_date)) }}</h5>
-                </div>
-              </div>
-              <!-- /.col -->
             </div>
             <!-- /.row -->
             <!-- Table row -->
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <table class="table table-striped">
                   <thead>
                     <tr>
-                      <th>Amenity</th>
-                      <th style="width: 30%">Payment Type</th>
-                      <th style="width: 59%">Covering Month/s</th>
-                      <th>Amount (PHP)</th>
+                      <th>Amenity Reserved</th>
+                      <th>Reservation Date</th>
+                      <th>Time Reserved</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>{{ $pendingPayment->facility->amenity }}</td>
-                      <td>{{ $pendingPayment->item->item_name }}</td>
-                      <td>{{ $pendingPayment->remarks }}</td>
-                      <td>{{ $pendingPayment->amount }}</td>
+                      <td>{{ $reservation->facility->amenity }}</td>
+                      <td>{{ date('F d, Y', strtotime($reservation->reservation_date)) }}</td>
+                      <td>{{ date('h:i A', strtotime($reservation->reservation_date)) . ' - ' . date('h:i A', strtotime('+' . $reservation->number_of_hours . ' hours', strtotime($reservation->reservation_date))) }}</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <!-- /.col -->
 
-              <div class="col-xs-6 pull-right">
+              <div class="col-xs-12 pull-right">
                 <p class="lead">Amount Due</p>
                 <div class="table-responsive">
                   <table class="table">
                     <tbody>
                       <tr>
                         <th style="width:50%">Total:</th>
-                        <td>{{reservation->total_amount}}</td>
+                        <td>₱{{ $reservation->reservation_amount }}</td>
+                        <th></th>
                       </tr>
+                      <?php $totalAmountPaid = 0; ?>
+                      @foreach($reservation->receipts as $receipt)
+                        <?php $totalAmountPaid += $receipt->amount_paid; ?>
+                        <tr>
+                          <th style="width:50%">Amount paid last {{ date('F d, Y', strtotime($receipt->created_at)) }}:</th>
+                          <td>₱{{ $receipt->amount_paid }}</td>
+                          <td>
+                            <a href="" target="_blank"></a>
+                          </td>
+                        </tr>
+                      @endforeach()
+
+                      @if($reservation->reservation_amount != $totalAmountPaid)
+                        <tr>
+                          <th style="width:50%">Balance:</th>
+                          <td>₱{{ number_format($reservation->reservation_amount - $totalAmountPaid, 2) }}</td>
+                          <td></td>
+                        </tr>
+                      @endif
                     </tbody>
                   </table>
                 </div>
@@ -94,17 +113,17 @@
               <!-- /.col -->
             </div>
             <!-- this row will not appear when printing -->
-            <div class="row no-print">
+            <!-- <div class="row no-print">
               <div class="col-xs-12">
-                {!! Form::open(['url'=>'pdf','method'=>'POST','target'=>'_blank']) !!}
-                  @include('pdf.pdf_form',['category'=>'invoice','recordId'=>reservation->id])
-
-                  @if(!reservation->is_paid && Auth::user()->userType->type != 'Guest')
-                    <a href="../receipt/create/{{reservation->id}}" role="button" class="btn btn-success pull-right" style="margin-right:5px;"><i class="fa fa-money"></i> Create Receipt</a>
+                {!! Form::open(['url' => 'pdf', 'method' => 'POST', 'target' => '_blank']) !!}
+                  @include('pdf.pdf_form', ['category' => 'reservation', 'recordId' => $reservation->id])
+            
+                  @if($reservation->reservation_amount == $reservation->amount_paid)
+                    <a href="../receipt/create/{{ $reservation->id }}" role="button" class="btn btn-success pull-right" style="margin-right:5px;"><i class="fa fa-money"></i> Create Receipt</a>
                   @endif
                 {!! Form::close() !!}
               </div>
-            </div>
+            </div> -->
           </section>
         </div>
       </div>

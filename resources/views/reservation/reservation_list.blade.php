@@ -36,14 +36,14 @@
               <tbody>
                 @foreach($reservationList as $reservation)
                   <tr>
-                    <td><a href="{{ route('reservations.show',$reservation->id) }}"><strong>#{{ sprintf("%'.07d\n",$reservation->id) }}</strong></a></td>
+                    <td><a href="{{ route('reservations.show',$reservation->id) }}"><strong>#{{ sprintf("%'.07d\n", $reservation->id) }}</strong></a></td>
                     <td>{{ $reservation->homeOwner->first_name }} {{ $reservation->homeOwner->middle_name }} {{ $reservation->homeOwner->last_name }}</td>
                     <td>{{ $reservation->facility->amenity }}</td>
                     <td>{{ date('F d, Y', strtotime($reservation->reservation_date)) }}</td>
                     <td>{{ date('h:i A', strtotime($reservation->reservation_date)) }} - {{ date('h:i A', strtotime('+' . $reservation->number_of_hours . ' hours', strtotime($reservation->reservation_date))) }}</td>
                     <td>₱{{ $reservation->reservation_amount }}</td>
                     <td>₱{{ $reservation->amount_paid }}</td>
-                    @if($reservation->is_paid)
+                    @if($reservation->reservation_amount == $reservation->amount_paid)
                       <td>Fully Paid</td>
                       <td align="center"></td>
                     @else
