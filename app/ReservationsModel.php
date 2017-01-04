@@ -32,9 +32,9 @@ class ReservationsModel extends Model
         'reservation_date'
     ];
 
-    /*public function user(){
+    public function user(){
         return $this->belongsTo('App\User','created_by');
-    }*/
+    }
 
     public function homeOwner(){
         return $this->belongsTo('App\HomeOwnerInformationModel', 'home_owner_id');
@@ -42,5 +42,9 @@ class ReservationsModel extends Model
 
     public function facility(){
         return $this->belongsTo('App\AmenitiesModel', 'amenity_id');
+    }
+
+    public function receipts() {
+        return $this->hasMany('App\ReservationsReceiptModel', 'reservation_id');
     }
 }
