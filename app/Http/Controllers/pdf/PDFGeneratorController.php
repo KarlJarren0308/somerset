@@ -84,14 +84,14 @@ class PDFGeneratorController extends Controller
 
 
 	private function generateReceiptPDF($id){
-		$receipt = $this->getHomeOwnerReceipt($id);
-		$receiptNumber = $id;
-		$invoiceNumber = $receipt->payment_id;
-		return PDF::loadView('pdf.receipt_pdf',
-								compact('receipt',
-										'receiptNumber',
-										'invoiceNumber'));
-	}
+        $receipt = $this->getHomeOwnerReceipt($id);
+        $receiptNumber = $id;
+        $invoiceNumber = $receipt->payment_id;
+        return PDF::loadView('pdf.receipt_pdf',
+                                compact('receipt',
+                                        'receiptNumber',
+                                        'invoiceNumber'));
+    }
 
 
 	private function generateInvoicePDF($id){
