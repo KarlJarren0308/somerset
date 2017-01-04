@@ -17,6 +17,7 @@ use App\Http\Requests;
 use App\SettingsModel;
 use App\AmenitiesModel;
 use App\ReservationsModel;
+use App\ReservationsReceiptModel;
 use App\AnnouncementModel;
 use App\AccountGroupModel;
 use App\AccountTitleModel;
@@ -72,6 +73,11 @@ trait UtilityHelper
     // Get all reservations or a specific one
     public function getReservations($id) {
         return $id==null ? ReservationsModel::all() : ReservationsModel::findOrFail($id);
+    }
+
+    // Get all reservation receipts or a specific one
+    public function getReservationReceipts($id) {
+        return $id==null ? ReservationsReceiptModel::all() : ReservationsReceiptModel::findOrFail($id);
     }
 
     //Get List of Users/ A certain user
