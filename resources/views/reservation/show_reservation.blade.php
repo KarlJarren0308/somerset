@@ -83,7 +83,7 @@
                   <table class="table">
                     <tbody>
                       <tr>
-                        <th style="width:50%">Total:</th>
+                        <th width="60%">Total:</th>
                         <td>₱{{ $reservation->reservation_amount }}</td>
                         <th></th>
                       </tr>
@@ -91,17 +91,17 @@
                       @foreach($reservation->receipts as $receipt)
                         <?php $totalAmountPaid += $receipt->amount_paid; ?>
                         <tr>
-                          <th style="width:50%">Amount paid last {{ date('F d, Y', strtotime($receipt->created_at)) }}:</th>
+                          <th width="60%">Amount paid last {{ date('F d, Y', strtotime($receipt->created_at)) }}:</th>
                           <td>₱{{ $receipt->amount_paid }}</td>
-                          <td>
-                            <a href="" target="_blank"></a>
+                          <td class="text-center">
+                            <a href="/reservations/receipt/{{ $receipt->id }}" role="button" class="btn btn-primary" title="Settle Payment" target="_blank"><i class="fa fa-print"></i></a>
                           </td>
                         </tr>
                       @endforeach()
 
                       @if($reservation->reservation_amount != $totalAmountPaid)
                         <tr>
-                          <th style="width:50%">Balance:</th>
+                          <th width="60%">Balance:</th>
                           <td>₱{{ number_format($reservation->reservation_amount - $totalAmountPaid, 2) }}</td>
                           <td></td>
                         </tr>
@@ -113,17 +113,6 @@
               <!-- /.col -->
             </div>
             <!-- this row will not appear when printing -->
-            <!-- <div class="row no-print">
-              <div class="col-xs-12">
-                {!! Form::open(['url' => 'pdf', 'method' => 'POST', 'target' => '_blank']) !!}
-                  @include('pdf.pdf_form', ['category' => 'reservation', 'recordId' => $reservation->id])
-            
-                  @if($reservation->reservation_amount == $reservation->amount_paid)
-                    <a href="../receipt/create/{{ $reservation->id }}" role="button" class="btn btn-success pull-right" style="margin-right:5px;"><i class="fa fa-money"></i> Create Receipt</a>
-                  @endif
-                {!! Form::close() !!}
-              </div>
-            </div> -->
           </section>
         </div>
       </div>
