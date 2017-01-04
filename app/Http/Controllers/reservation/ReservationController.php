@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\reservation;
 
 use Auth;
+use PDF;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -86,7 +87,7 @@ class ReservationController extends Controller
         $reservationTime = $request->input('reservationTime');
         $rentPrice = $request->input('rentPrice');
         $reservationDateTime = date('Y-m-d', strtotime($request->input('reservationDate'))) . ' ' . date('H:i:s', strtotime($request->input('reservationTime')));
-        $isAvailable = false;
+        $isAvailable = true;
 
         try {
             $reservations = ReservationsModel::where('amenity_id', $amenityId)->get();
@@ -95,6 +96,8 @@ class ReservationController extends Controller
                 if(!$this->checkIfDateTimeRangeOverlap($reservationDateTime, date('Y-m-d H:i:s', strtotime('+' . $numberOfHours . ' hours', strtotime($reservationDateTime))), $reservation->reservation_date, date('Y-m-d H:i:s', strtotime('+' . $reservation->number_of_hours . ' hours', strtotime($reservation->reservation_date))))) {
                     $isAvailable = true;
                 } else {
+                    $isAvailable = false;
+
                     break;
                 }
             }
@@ -107,6 +110,11 @@ class ReservationController extends Controller
                     'amount_paid' => (($rentPrice * $numberOfHours) / 2),
                     'number_of_hours' => $numberOfHours,
                     'reservation_date' => date('Y-m-d H:i:s', strtotime($reservationDateTime))
+                ));
+
+                $reservationReceiptId = $this->insertRecord('reservations_receipt', array(
+                    'reservation_id' => $reservationId,
+                    'amount_paid' => (($rentPrice * $numberOfHours) / 2)
                 ));
 
                 if(Auth::user()->userType->type !== 'Guest') { 
@@ -141,6 +149,19 @@ class ReservationController extends Controller
         } catch(\Exception $ex) {
             return view('errors.404');
         }
+    }
+
+    /**
+     * Show reservation receipt
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function receipt($id)
+    {
+        $receipt = $this->getReservationReceipts($id);
+
+        return PDF::loadView('pdf.reservation_receipt', compact('receipt'))->stream('reservation_receipt_' . date('m_d_y') . '.pdf');
     }
 
     /**
