@@ -1,0 +1,7 @@
+Remove block-lot to receipt
+* Optional block-lot on homeowners
+* Invoice doesn't accept same day.
+* Fix Create Invoice. (Advice: Update Settings before creating Invoice)
+Reservation should be similar to Invoice
+* Swimming Pool (Kiddie-size & Adult-size)
+Change background image
