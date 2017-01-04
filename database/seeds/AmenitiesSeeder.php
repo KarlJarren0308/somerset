@@ -14,19 +14,19 @@ class AmenitiesSeeder extends Seeder
         $amenities = array();
         $amenities[] = array(
             'amenity' => 'Basketball Court',
-            'rent_price_per_hour' => '50'
+            'rent_price_per_hour' => '200'
         );
         $amenities[] = array(
             'amenity' => 'Function Hall',
-            'rent_price_per_hour' => '150'
+            'rent_price_per_hour' => '2000'
         );
         $amenities[] = array(
             'amenity' => 'Adult-size Swimming Pool',
-            'rent_price_per_hour' => '150'
+            'rent_price_per_hour' => '80'
         );
         $amenities[] = array(
             'amenity' => 'Kiddie-size Swimming Pool',
-            'rent_price_per_hour' => '100'
+            'rent_price_per_hour' => '60'
         );
 
         DB::table('amenities')->insert($amenities);
