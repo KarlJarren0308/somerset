@@ -18,6 +18,10 @@ class CreateAmenitiesTable extends Migration
                 $table->increments('id');
                 $table->string('amenity', 255);
                 $table->decimal('rent_price_per_hour', 10, 2)->default(0.00);
+                $table->Integer('created_by')->unsigned()->nullable();
+                $table->foreign('created_by')->references('id')->on('users');
+                $table->Integer('updated_by')->unsigned()->nullable();
+                $table->foreign('updated_by')->references('id')->on('users');
                 $table->timestamps();
             });
         }
