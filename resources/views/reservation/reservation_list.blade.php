@@ -55,7 +55,7 @@
                         <!-- <a href="{{ route('reservations.edit', $reservation->id) }}" role="button" class="btn btn-default">
                           <i class="fa fa-pencil"></i> 
                         </a> -->
-                        {!! Form::model($reservation, ['method'=>'DELETE','action' => ['reservation\ReservationController@destroy',$reservation->id] , 'class' => 'form-horizontal form-label-left form-wrapper']) !!}
+                        {!! Form::model($reservation, ['method' => 'DELETE', 'action' => ['reservation\ReservationController@destroy', $reservation->id] , 'class' => 'form-horizontal form-label-left form-wrapper']) !!}
                           <button type="submit" class="btn btn-default" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa fa-trash"></i> </button>
                         {!! Form::close() !!}
                       </td>

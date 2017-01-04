@@ -37,6 +37,13 @@
           </ul>
         </li>
         <li>
+          <a><i class="fa fa-building"></i> Amenities <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+             <li><a href="{{ route('amenities.create') }}">Create New Amenity</a></li>
+             <li><a href="{{ route('amenities.index') }}">View All Amenities</a></li>
+          </ul>
+        </li>
+        <li>
           <a><i class="fa fa-map-marker"></i> Reservations <span class="fa fa-chevron-down"></span></a>
           <ul class="nav child_menu">
              <li><a href="{{ route('reservations.create') }}">Create New Reservation</a></li>
@@ -100,6 +107,13 @@
           </ul>
         </li>
         <li>
+          <a><i class="fa fa-building"></i> Amenities <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+             <li><a href="{{ route('amenities.create') }}">Create New Amenity</a></li>
+             <li><a href="{{ route('amenities.index') }}">View All Amenities</a></li>
+          </ul>
+        </li>
+        <li>
           <a><i class="fa fa-map-marker"></i> Reservations <span class="fa fa-chevron-down"></span></a>
           <ul class="nav child_menu">
              <li><a href="{{ route('reservations.create') }}">Create New Reservation</a></li>
@@ -133,6 +147,13 @@
           <ul class="nav child_menu">
              <li><a href="{{ route('assets.create') }}">Create Assets</a></li>
              <li><a href="{{ route('assets.index') }}">View All Assets</a></li>
+          </ul>
+        </li>
+        <li>
+          <a><i class="fa fa-building"></i> Amenities <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+             <li><a href="{{ route('amenities.create') }}">Create New Amenity</a></li>
+             <li><a href="{{ route('amenities.index') }}">View All Amenities</a></li>
           </ul>
         </li>
         <li>

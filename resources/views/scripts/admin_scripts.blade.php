@@ -1503,3 +1503,54 @@
     });
   });
 </script>
+<script>
+  $(document).ready(function() {
+    $('#createAmenityBtn').click(function() {
+      //Retrieving token for request
+      var _token = $('meta[name="csrf-token"]').attr('content');
+
+      var amenity = $('#amenity').val();
+      var rentPricePerHour = $('#rentPricePerHour').val();
+
+      if(amenity != '') {
+        if(rentPricePerHour != '' && rentPricePerHour > 0) {
+          $.ajax({
+            headers: {
+                'X-CSRF-TOKEN': _token
+            },
+            url: '/amenities',
+            type: 'POST',
+            data: {
+              'amenity': amenity,
+              'rentPricePerHour': rentPricePerHour
+            },
+            success: function(response) {
+              location.href = "/amenities/"; // + response;
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+              if(xhr.status == 422) {
+                var xhrResponseText = JSON.parse(xhr.responseText);
+
+                $('.xhr-container').html('<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><div class="xhr-content"></div></div>').promise().done(function() {
+                  Object.keys(xhrResponseText).map(function(key) {
+                    $('.xhr-container .xhr-content').append('* ' + xhrResponseText[key] + '<br>');
+                  });
+                });
+                $('div.alert').not('.alert-important').delay(3000).slideUp(300);
+              } else {
+                alert(xhr.status);
+                alert(thrownError);
+              }
+            }
+          });
+        } else {
+          alert('Rent Price per Hour field is required.');
+          $('#rentPricePerHour').focus();
+        }
+      } else {
+        alert('Amenity field is required.');
+        $('#amenity').focus();
+      }
+    });
+  });
+</script>

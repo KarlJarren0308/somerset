@@ -27,4 +27,8 @@ class AmenitiesModel extends Model
         'amenity',
         'rent_price_per_hour'
     ];
+
+    public function user(){
+        return $this->belongsTo('App\User','created_by');
+    }
 }
