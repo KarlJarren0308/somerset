@@ -26,11 +26,8 @@
        	<div class="header" style="display:inline-block; width:100%">
       		<div>
           		<p><strong>Somerset Homeowners Associations</strong></p>
-              <p><strong> Somerset Homeowners Association</strong></p>
-              <p><strong>B18 L22 Barrington, Somerset Ave, Pasig, Metro Manila</strong></p>
               <p><strong>(02) 470 0040</strong></p>
               <p><strong>somersetplace@gmail.com</strong></p>
-              <p><strong>Receipt </strong></p>
       		</div>
   		</div>
   		<hr/>
