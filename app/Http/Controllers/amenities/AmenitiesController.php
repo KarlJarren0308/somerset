@@ -71,12 +71,14 @@ class AmenitiesController extends Controller
     public function store(Request $request)
     {
         $amenity = $request->input('amenity');
-        $rentPricePerHour = $request->input('rentPricePerHour');
+        $rentPrice = $request->input('rentPrice');
+        $rentHours = $request->input('rentHours');
 
         try {
             $amenityId = $this->insertRecord('amenities', array(
                 'amenity' => $amenity,
-                'rent_price_per_hour' => $rentPricePerHour
+                'rent_price' => $rentPrice,
+                'rent_hours' => $rentHours
             ));
 
             $this->createSystemLogs('Created a New Amenity');

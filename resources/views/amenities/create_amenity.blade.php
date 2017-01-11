@@ -33,16 +33,22 @@
             </div>
             <!-- info row -->
             <div class="row invoice-info">
-              <div class="col-sm-6 invoice-col">
+              <div class="col-sm-4 invoice-col">
                 <label class="control-label" for="homeowner">Amenity</label>
                 <div class="form-group">
                   <input id="amenity" class="form-control" type="text">
                 </div>
               </div>
-              <div class="col-sm-6 invoice-col">
-                <label class="control-label" for="homeowner">Rent Price per Hour</label>
+              <div class="col-sm-4 invoice-col">
+                <label class="control-label" for="homeowner">Rent Price</label>
                 <div class="form-group">
-                  <input id="rentPricePerHour" class="form-control" min="1" type="number">
+                  <input id="rentPrice" class="form-control" min="1" type="number">
+                </div>
+              </div>
+              <div class="col-sm-4 invoice-col">
+                <label class="control-label" for="homeowner">Rent Hours</label>
+                <div class="form-group">
+                  <input id="rentHours" class="form-control" min="1" type="number">
                 </div>
               </div>
               <!-- /.col -->

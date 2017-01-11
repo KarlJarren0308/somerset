@@ -57,20 +57,14 @@
                 </div>
               </div>
               <div class="col-sm-4 invoice-col">
-                <label class="control-label" for="homeowner">Number of Hours</label>
-                <div class="form-group">
-                  <input id="numberOfHours" class="form-control" value="1" min="1" max="24" type="number">
-                </div>
-              </div>
-              <!-- /.col -->
-            </div>
-            <div class="row invoice-info">
-              <div class="col-sm-3 invoice-col">
                 <label class="control-label" for="homeowner">Reservation Date:</label>
                 <div class="form-group">
                   <input id="reservationDate" class="datepicker form-control" type="text">
                 </div>
               </div>
+              <!-- /.col -->
+            </div>
+            <div class="row invoice-info">
               <div class="col-sm-3 invoice-col">
                 <label class="control-label" for="homeowner">Reservation Time:</label>
                 <div class="form-group">
@@ -83,9 +77,15 @@
                   <select id="amenity" class="select2_single form-control" tabindex="-1">
                     <option></option>
                     @foreach($amenities as $amenity)
-                      <option value="{{ $amenity->id }}" data-price="{{ $amenity->rent_price_per_hour }}">{{ $amenity->amenity }}</option>
+                      <option value="{{ $amenity->id }}" data-price="{{ $amenity->rent_price }}" data-hours="{{ $amenity->rent_hours }}">{{ $amenity->amenity }}</option>
                     @endforeach
                   </select>
+                </div>
+              </div>
+              <div class="col-sm-3 invoice-col">
+                <label class="control-label" for="homeowner">Number of Hours</label>
+                <div class="form-group">
+                  <input id="numberOfHours" class="form-control" value="1" min="1" step="1" type="number">
                 </div>
               </div>
               <!-- /.col -->

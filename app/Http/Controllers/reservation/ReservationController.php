@@ -86,6 +86,7 @@ class ReservationController extends Controller
         $reservationDate = $request->input('reservationDate');
         $reservationTime = $request->input('reservationTime');
         $rentPrice = $request->input('rentPrice');
+        $rentHours = $request->input('rentHours');
         $reservationDateTime = date('Y-m-d', strtotime($request->input('reservationDate'))) . ' ' . date('H:i:s', strtotime($request->input('reservationTime')));
         $isAvailable = true;
 
@@ -106,15 +107,15 @@ class ReservationController extends Controller
                 $reservationId = $this->insertRecord('reservations', array(
                     'home_owner_id' => $homeOwnerId,
                     'amenity_id' => $amenityId,
-                    'reservation_amount' => ($rentPrice * $numberOfHours),
-                    'amount_paid' => (($rentPrice * $numberOfHours) / 2),
+                    'reservation_amount' => (($rentPrice * $numberOfHours) / $rentHours),
+                    'amount_paid' => ((($rentPrice * $numberOfHours) / $rentHours) / 2),
                     'number_of_hours' => $numberOfHours,
                     'reservation_date' => date('Y-m-d H:i:s', strtotime($reservationDateTime))
                 ));
 
                 $reservationReceiptId = $this->insertRecord('reservations_receipt', array(
                     'reservation_id' => $reservationId,
-                    'amount_paid' => (($rentPrice * $numberOfHours) / 2)
+                    'amount_paid' => ((($rentPrice * $numberOfHours) / $rentHours) / 2)
                 ));
 
                 if(Auth::user()->userType->type !== 'Guest') { 
