@@ -65,7 +65,7 @@
                   <select id="amenity" class="select2_single form-control" tabindex="-1">
                     <option></option>
                     @foreach($amenities as $amenity)
-                      <option value="{{ $amenity->id }}" data-price="{{ $amenity->rent_price_per_hour }}">{{ $amenity->amenity }}</option>
+                      <option value="{{ $amenity->id }}" data-price="{{ $amenity->rent_price_per_hour }}" data-hours="{{ $amenity->rent_hours }}">{{ $amenity->amenity }}</option>
                     @endforeach
                   </select>
                 </div>
