@@ -221,12 +221,17 @@
 
     $(document).ready(function() {
       if(isInReservation != null && $('#amenity').val() != '') {
+        $('#numberOfHours').val('');
+        
         var rentPrice = $('#amenity option:selected').data('price');
+        var rentHours = $('#amenity option:selected').data('hours');
         var numberOfHours = $('#numberOfHours').val();
 
         $('.a_c').remove();
-        $('#amountCalc > tbody').prepend('<tr class="a_c"><th>Downpayment: </th><td>PHP ' + ((rentPrice * numberOfHours) / 2).toFixed(2) + '</td></tr><tr class="a_c"><th class="text-center">' + moment($('#reservationDate').val()).format('MMM. DD, YYYY') + '</th><td>PHP ' + ((rentPrice * numberOfHours) / 2).toFixed(2) + '</td></tr>');
-        $('#totalReservationAmount').text('PHP ' + (rentPrice * numberOfHours));
+        $('#amountCalc > tbody').prepend('<tr class="a_c"><th>Downpayment: </th><td>PHP ' + (((rentPrice * numberOfHours) / rentHours) / 2).toFixed(2) + '</td></tr><tr class="a_c"><th class="text-center">' + moment($('#reservationDate').val()).format('MMM. DD, YYYY') + '</th><td>PHP ' + (((rentPrice * numberOfHours) / rentHours) / 2).toFixed(2) + '</td></tr>');
+        $('#totalReservationAmount').text('PHP ' + ((rentPrice * numberOfHours) / rentHours));
+
+        $('#numberOfHours').attr('min', rentHours).attr('step', rentHours);
       }
 
       $('.datepicker').daterangepicker({
@@ -235,24 +240,38 @@
       });
 
       $('#amenity').change(function() {
+        $('#numberOfHours').val('');
+
         var rentPrice = $('#amenity option:selected').data('price');
+        var rentHours = $('#amenity option:selected').data('hours');
         var numberOfHours = $('#numberOfHours').val();
 
         if($(this).val() != '') {
           $('.a_c').remove();
-          $('#amountCalc > tbody').prepend('<tr class="a_c"><th>Downpayment: </th><td>PHP ' + ((rentPrice * numberOfHours) / 2).toFixed(2) + '</td></tr><tr class="a_c"><th class="text-center">' + moment($('#reservationDate').val()).format('MMM. DD, YYYY') + '</th><td>PHP ' + ((rentPrice * numberOfHours) / 2).toFixed(2) + '</td></tr>');
-          $('#totalReservationAmount').text('PHP ' + (rentPrice * numberOfHours));
+          $('#amountCalc > tbody').prepend('<tr class="a_c"><th>Downpayment: </th><td>PHP ' + (((rentPrice * numberOfHours) / rentHours) / 2).toFixed(2) + '</td></tr><tr class="a_c"><th class="text-center">' + moment($('#reservationDate').val()).format('MMM. DD, YYYY') + '</th><td>PHP ' + (((rentPrice * numberOfHours) / rentHours) / 2).toFixed(2) + '</td></tr>');
+          $('#totalReservationAmount').text('PHP ' + ((rentPrice * numberOfHours) / rentHours));
+
+          $('#numberOfHours').attr('min', rentHours).attr('step', rentHours);
         }
       });
 
       $('#numberOfHours').on('keyup change', function() {
         var rentPrice = $('#amenity option:selected').data('price');
-        var numberOfHours = $('#numberOfHours').val();
+        var rentHours = $('#amenity option:selected').data('hours');
+        var numberOfHours;
 
-        if($('#amenity').val() != '') {
-          $('.a_c').remove();
-          $('#amountCalc > tbody').prepend('<tr class="a_c"><th>Downpayment: </th><td>PHP ' + ((rentPrice * numberOfHours) / 2).toFixed(2) + '</td></tr><tr class="a_c"><th class="text-center">' + moment($('#reservationDate').val()).format('MMM. DD, YYYY') + '</th><td>PHP ' + ((rentPrice * numberOfHours) / 2).toFixed(2) + '</td></tr>');
-          $('#totalReservationAmount').text('PHP ' + (rentPrice * numberOfHours));
+        if($('#numberOfHours').val() % rentHours == 0) {
+          numberOfHours = $('#numberOfHours').val();
+
+          if($('#amenity').val() != '') {
+            $('.a_c').remove();
+            $('#amountCalc > tbody').prepend('<tr class="a_c"><th>Downpayment: </th><td>PHP ' + (((rentPrice * numberOfHours) / rentHours) / 2).toFixed(2) + '</td></tr><tr class="a_c"><th class="text-center">' + moment($('#reservationDate').val()).format('MMM. DD, YYYY') + '</th><td>PHP ' + (((rentPrice * numberOfHours) / rentHours) / 2).toFixed(2) + '</td></tr>');
+            $('#totalReservationAmount').text('PHP ' + ((rentPrice * numberOfHours) / rentHours));
+          }
+        } else {
+          alert('Number of Hours should be at least ' + rentHours + ' hour(s).');
+
+          $(this).val('').focus();
         }
       });
 
@@ -274,6 +293,7 @@
         var homeOwnerId = $('#homeowner').val();
         var amenityId = $('#amenity option:selected').val() != '' ? $('#amenity option:selected').val() : '';
         var rentPrice = $('#amenity option:selected').data('price') != undefined ? $('#amenity option:selected').data('price') : '';
+        var rentHours = $('#amenity option:selected').data('hours') != undefined ? $('#amenity option:selected').data('hours') : '';
         var dueDate = reservationDate.split('/');
 
         dueDate = new Date(Date.parse(dueDate[1] + '/' + dueDate[0] + '/' + dueDate[2]));
@@ -289,6 +309,7 @@
               'homeOwnerId': homeOwnerId,
               'amenityId': amenityId,
               'rentPrice': rentPrice,
+              'rentHours': rentHours,
               'numberOfHours': numberOfHours,
               'reservationDate': reservationDate,
               'reservationTime': reservationTime
