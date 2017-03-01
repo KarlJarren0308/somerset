@@ -17,7 +17,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -51,7 +51,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -85,7 +85,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -119,7 +119,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -153,7 +153,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -187,7 +187,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -221,7 +221,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1792,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -255,7 +255,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -289,7 +289,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-03')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-03' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -324,7 +324,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -358,7 +358,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -392,7 +392,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -426,7 +426,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -460,7 +460,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -494,7 +494,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -528,7 +528,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -562,7 +562,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1344,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -596,7 +596,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1344,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -630,7 +630,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -664,7 +664,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -698,7 +698,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -732,7 +732,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -766,7 +766,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -800,7 +800,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -834,7 +834,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -868,7 +868,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -902,7 +902,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  2688,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-04')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-04' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -937,7 +937,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -971,7 +971,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1005,7 +1005,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1039,7 +1039,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1073,7 +1073,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1107,7 +1107,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1141,7 +1141,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1175,7 +1175,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1209,7 +1209,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1243,7 +1243,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1277,7 +1277,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1311,7 +1311,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1345,7 +1345,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-05')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-05' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1380,7 +1380,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1414,7 +1414,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1448,7 +1448,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1482,7 +1482,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1516,7 +1516,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1550,7 +1550,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1584,7 +1584,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-06')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-06' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1619,7 +1619,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1653,7 +1653,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1687,7 +1687,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  3584,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1721,7 +1721,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1755,7 +1755,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1789,7 +1789,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1823,7 +1823,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1857,7 +1857,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-07')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-07' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1892,7 +1892,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1926,7 +1926,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1960,7 +1960,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -1994,7 +1994,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2028,7 +2028,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2062,7 +2062,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2096,7 +2096,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2130,7 +2130,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2164,7 +2164,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2198,7 +2198,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-09')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-09' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2233,7 +2233,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-10')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2267,7 +2267,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-10')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2301,7 +2301,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-10')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2335,7 +2335,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-10')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-10' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2370,7 +2370,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2404,7 +2404,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2438,7 +2438,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2472,7 +2472,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2506,7 +2506,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2540,7 +2540,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2574,7 +2574,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-11')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-11' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2609,7 +2609,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2643,7 +2643,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2677,7 +2677,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2711,7 +2711,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2745,7 +2745,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2779,7 +2779,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2813,7 +2813,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2847,7 +2847,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2881,7 +2881,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1792,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2915,7 +2915,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-12')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-12' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2950,7 +2950,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -2984,7 +2984,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3018,7 +3018,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  4480,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3052,7 +3052,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3086,7 +3086,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3120,7 +3120,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3154,7 +3154,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3188,7 +3188,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1344,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3222,7 +3222,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3256,7 +3256,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1344,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3290,7 +3290,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-13')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-13' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3325,7 +3325,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3359,7 +3359,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3393,7 +3393,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3427,7 +3427,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3461,7 +3461,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3495,7 +3495,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3529,7 +3529,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3563,7 +3563,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3597,7 +3597,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3631,7 +3631,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3665,7 +3665,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3699,7 +3699,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3733,7 +3733,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3767,7 +3767,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3801,7 +3801,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3835,7 +3835,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3869,7 +3869,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3903,7 +3903,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3937,7 +3937,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -3971,7 +3971,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4005,7 +4005,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4039,7 +4039,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4073,7 +4073,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  896,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4107,7 +4107,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4141,7 +4141,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4175,7 +4175,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4209,7 +4209,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4243,7 +4243,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-14')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-14' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4278,7 +4278,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  2688,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-22')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-22' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-22' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4312,7 +4312,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-22')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-22' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-22' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4347,7 +4347,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-26')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-26' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-26' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4381,7 +4381,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  2688,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-02-26')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-26' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-02-26' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4416,7 +4416,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4450,7 +4450,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4484,7 +4484,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4519,7 +4519,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-02')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-02' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-02' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4553,7 +4553,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  1344,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4587,7 +4587,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4621,7 +4621,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4655,7 +4655,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  448,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4689,7 +4689,7 @@ class TransactionSeeder extends Seeder
             'total_amount' =>  5376,
             'is_paid' => 1,
             'payment_due_date' => date('Y-m-d', strtotime('2017-03-01')),
-            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days'))
+            'next_penalty_date' => date('Y-m-d', strtotime('2017-03-01' . '+1 days')),
             'created_at' => date('Y-m-d'),
             'updated_at' => date('Y-m-d'),
             'created_by' => 1,
@@ -4713,7 +4713,7 @@ class TransactionSeeder extends Seeder
             'created_by' => 1,
             'updated_by' => 1,
             'receipt_no' => '0015635',
-            'amount_paid' => 5376,,
+            'amount_paid' => 5376,
             'created_at' => date('Y-m-d'),
             'updated_at'=>  date('Y-m-d')
         ]);
