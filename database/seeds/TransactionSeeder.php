@@ -36,7 +36,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -70,7 +70,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -104,7 +104,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -138,7 +138,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -172,7 +172,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -206,7 +206,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -240,7 +240,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -274,7 +274,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -308,7 +308,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -343,7 +343,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -377,7 +377,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -411,7 +411,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -445,7 +445,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -479,7 +479,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -513,7 +513,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -547,7 +547,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -581,7 +581,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -615,7 +615,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -649,7 +649,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -683,7 +683,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -717,7 +717,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -751,7 +751,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -785,7 +785,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -819,7 +819,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -853,7 +853,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -887,7 +887,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -921,7 +921,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -956,7 +956,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -990,7 +990,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1024,7 +1024,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1058,7 +1058,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1092,7 +1092,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1126,7 +1126,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1160,7 +1160,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1194,7 +1194,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1228,7 +1228,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1262,7 +1262,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1296,7 +1296,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1330,7 +1330,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1364,7 +1364,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1399,7 +1399,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1433,7 +1433,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1467,7 +1467,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1501,7 +1501,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1535,7 +1535,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1569,7 +1569,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1603,7 +1603,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1638,7 +1638,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1672,7 +1672,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1706,7 +1706,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1740,7 +1740,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1774,7 +1774,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1808,7 +1808,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1842,7 +1842,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1876,7 +1876,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1911,7 +1911,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1945,7 +1945,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -1979,7 +1979,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2013,7 +2013,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2047,7 +2047,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2081,7 +2081,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2115,7 +2115,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2149,7 +2149,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2183,7 +2183,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2217,7 +2217,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2252,7 +2252,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2286,7 +2286,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2320,7 +2320,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2354,7 +2354,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2389,7 +2389,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2423,7 +2423,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2457,7 +2457,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2491,7 +2491,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2525,7 +2525,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2559,7 +2559,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2593,7 +2593,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2628,7 +2628,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2662,7 +2662,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2696,7 +2696,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2730,7 +2730,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2764,7 +2764,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2798,7 +2798,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2832,7 +2832,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2866,7 +2866,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2900,7 +2900,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2934,7 +2934,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -2969,7 +2969,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3003,7 +3003,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3037,7 +3037,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3071,7 +3071,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3105,7 +3105,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3139,7 +3139,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3173,7 +3173,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3207,7 +3207,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3241,7 +3241,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3275,7 +3275,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3309,7 +3309,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3344,7 +3344,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3378,7 +3378,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3412,7 +3412,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3446,7 +3446,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3480,7 +3480,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3514,7 +3514,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3548,7 +3548,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3582,7 +3582,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3616,7 +3616,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3650,7 +3650,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3684,7 +3684,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3718,7 +3718,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3752,7 +3752,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3786,7 +3786,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3820,7 +3820,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3854,7 +3854,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3888,7 +3888,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3922,7 +3922,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3956,7 +3956,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -3990,7 +3990,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4024,7 +4024,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4058,7 +4058,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4092,7 +4092,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4126,7 +4126,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4160,7 +4160,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4194,7 +4194,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4228,7 +4228,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4262,7 +4262,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4297,7 +4297,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4331,7 +4331,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4366,7 +4366,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4400,7 +4400,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4435,7 +4435,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4469,7 +4469,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4503,7 +4503,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4538,7 +4538,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4572,7 +4572,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4606,7 +4606,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4640,7 +4640,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4674,7 +4674,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
@@ -4708,7 +4708,7 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
-        DB::table('home_owner_payment_transaction')->insert([
+        $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
             'updated_by' => 1,
