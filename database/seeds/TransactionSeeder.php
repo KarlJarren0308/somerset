@@ -36,6 +36,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -68,6 +92,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -104,6 +152,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -136,6 +208,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -172,6 +268,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -204,6 +324,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -240,6 +384,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1792,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1792,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -274,6 +442,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -306,6 +498,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -343,6 +559,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -375,6 +615,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -411,6 +675,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -443,6 +731,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -479,6 +791,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -511,6 +847,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -547,6 +907,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -579,6 +963,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -615,6 +1023,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -647,6 +1079,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -683,6 +1139,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -715,6 +1195,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -751,6 +1255,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -783,6 +1311,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -819,6 +1371,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -851,6 +1427,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -887,6 +1487,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -919,6 +1543,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 2688,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 2688,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -956,6 +1604,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -988,6 +1660,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1024,6 +1720,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1056,6 +1776,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1092,6 +1836,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1124,6 +1892,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1160,6 +1952,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1192,6 +2008,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1228,6 +2068,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1260,6 +2124,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1296,6 +2184,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1330,6 +2242,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1362,6 +2298,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1399,6 +2359,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1431,6 +2415,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1467,6 +2475,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1499,6 +2531,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1535,6 +2591,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1569,6 +2649,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1601,6 +2705,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1638,6 +2766,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1670,6 +2822,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1706,6 +2882,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 3584,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 3584,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1738,6 +2938,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1774,6 +2998,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1806,6 +3054,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1842,6 +3114,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1874,6 +3170,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1911,6 +3231,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -1943,6 +3287,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -1979,6 +3347,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2011,6 +3403,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2047,6 +3463,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2079,6 +3519,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2115,6 +3579,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2147,6 +3635,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2183,6 +3695,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2215,6 +3751,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2252,6 +3812,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2284,6 +3868,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2320,6 +3928,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2352,6 +3984,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2389,6 +4045,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2421,6 +4101,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2457,6 +4161,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2489,6 +4217,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2525,6 +4277,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2559,6 +4335,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2591,6 +4391,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2628,6 +4452,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2660,6 +4508,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2696,6 +4568,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2728,6 +4624,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2764,6 +4684,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2796,6 +4740,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2832,6 +4800,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2864,6 +4856,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2900,6 +4916,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1792,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1792,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -2932,6 +4972,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -2969,6 +5033,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3001,6 +5089,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3037,6 +5149,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 4480,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 4480,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3069,6 +5205,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3105,6 +5265,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3137,6 +5321,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3173,6 +5381,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3205,6 +5437,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3241,6 +5497,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3275,6 +5555,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3307,6 +5611,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3344,6 +5672,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3376,6 +5728,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3412,6 +5788,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3444,6 +5844,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3480,6 +5904,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3512,6 +5960,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3548,6 +6020,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3580,6 +6076,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3616,6 +6136,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3648,6 +6192,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3684,6 +6252,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3716,6 +6308,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3752,6 +6368,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3784,6 +6424,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3820,6 +6484,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3852,6 +6540,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3888,6 +6600,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3920,6 +6656,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -3956,6 +6716,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -3988,6 +6772,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4024,6 +6832,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4056,6 +6888,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4092,6 +6948,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 896,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4124,6 +7004,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4160,6 +7064,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4192,6 +7120,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4228,6 +7180,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4260,6 +7236,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4297,6 +7297,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 2688,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 2688,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4329,6 +7353,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4366,6 +7414,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4398,6 +7470,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 2688,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 2688,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4435,6 +7531,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4469,6 +7589,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4501,6 +7645,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4538,6 +7706,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4570,6 +7762,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 1344,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4606,6 +7822,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4638,6 +7878,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
@@ -4674,6 +7938,30 @@ class TransactionSeeder extends Seeder
             'updated_by' => 1
         ]);
 
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 448,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
             'payment_id' => $homeOwnerInvoiceID,
             'created_by' => 1,
@@ -4706,6 +7994,30 @@ class TransactionSeeder extends Seeder
             'updated_at'=>  date('Y-m-d'),
             'created_by' => 1,
             'updated_by' => 1
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'debit_title_id' => 6,
+            'debit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
+        ]);
+
+        DB::table('journal_entry')->insert([
+            'created_by' => 1,
+            'updated_by' => 1,
+            'invoice_id' => $homeOwnerInvoiceID,
+            'type' => 'Invoice',
+            'description' => 'Created invoice for homeowner ',
+            'credit_title_id' => 2,
+            'credit_amount' => 5376,
+            'created_at' => date('Y-m-d'),
+            'updated_at'=>  date('Y-m-d')
         ]);
 
         $homeOwnerPaymentTransactionID = DB::table('home_owner_payment_transaction')->insert([
